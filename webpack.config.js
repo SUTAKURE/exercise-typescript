@@ -4,7 +4,7 @@ module.exports = {
     bundle: "./src/index.ts",
   },
   output: {
-    path: path.jsoin(__dirname, "dist"),
+    path: path.join(__dirname, "dist"),
     filename: "[name].js",
   },
   resolve: {

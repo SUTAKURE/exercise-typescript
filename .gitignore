@@ -1,1 +1,5 @@
+# except node_module
 node_modules
+
+# ビルド用のフォルダ
+dist
