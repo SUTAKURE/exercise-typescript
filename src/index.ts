@@ -17,14 +17,21 @@
 // unknownSample();
 
 // 関数の型定義
-import { logMassage } from "./function/basic";
-import {
-  isUserSignedIn,
-  isUserSignedIn2,
-  sumProductsPrice,
-} from "./function/parameters";
-logMassage("Hello Typescript!");
-isUserSignedIn("ABC", "PMBOOK");
-isUserSignedIn("DEF");
-isUserSignedIn2("ABC");
-console.log(sumProductsPrice(100, 200, 300, 400, 500));
+// import { logMassage } from "./function/basic";
+// import {
+//   isUserSignedIn,
+//   isUserSignedIn2,
+//   sumProductsPrice,
+// } from "./function/parameters";
+
+// logMassage("Hello Typescript!");
+// isUserSignedIn("ABC", "PMBOOK");
+// isUserSignedIn("DEF");
+// isUserSignedIn2("ABC");
+// console.log(sumProductsPrice(100, 200, 300, 400, 500));
+
+import objectSample from "./object/object";
+import typeAliasSample from "./object/alias";
+
+objectSample();
+typeAliasSample();
