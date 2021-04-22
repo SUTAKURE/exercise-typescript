@@ -37,7 +37,13 @@
 // typeAliasSample();
 
 // 配列とタプルの型定義
-import arraySample from "./array/array";
-import tuppleSample from "./array/tupple";
-arraySample();
-tuppleSample();
+// import arraySample from "./array/array";
+// import tuppleSample from "./array/tupple";
+// arraySample();
+// tuppleSample();
+
+// ジェネリック型とポリモーフィズム
+import genericsBasicSample from "./generics/basic";
+import genericsAdvancedSample from "./generics/advanced";
+genericsBasicSample();
+genericsAdvancedSample();
